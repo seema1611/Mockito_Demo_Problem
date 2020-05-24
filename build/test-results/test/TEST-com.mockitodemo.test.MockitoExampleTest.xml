@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mockitodemo.test.MockitoExampleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-24T09:16:27" hostname="LAPTOP-OT35PSQH" time="1.293">
+  <properties/>
+  <testcase name="givenTwoNumbersAddition_WhenProper_ShouldReturnCorrectAddition" classname="com.mockitodemo.test.MockitoExampleTest" time="1.293"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
