@@ -37,4 +37,18 @@ public class MockitoExampleTest {
         verify(calcService, times(1)).add(10.0, 20.0);
         verify(calcService, never()).multiply(10.0, 20.0);
     }
+
+    //UC-2
+    @Test
+    public void givenTwoNumbersSubtraction_WhenProper_ShouldReturnCorrectAddition(){
+        //add the behavior of calc service to add two numbers
+        mockitoExample.setCalculatorService(calcService);
+        when(calcService.subtract(10.0,20.0)).thenReturn(10.0);
+
+        //test the add functionality
+        Assert.assertEquals(mockitoExample.subtract(10.0, 20.0),10.0,0);
+        verify(calcService, times(1)).subtract(10.0, 20.0);
+        verify(calcService, never()).divide(10.0,20.0);
+    }
+
 }
