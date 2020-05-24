@@ -51,4 +51,14 @@ public class MockitoExampleTest {
         verify(calcService, never()).divide(10.0,20.0);
     }
 
+    //UC-3
+    @Test(expected = RuntimeException.class)
+    public void givenTwoNumbersDivision_WhenDivideByZero_ShouldThrowException(){
+        //add the behavior to throw exception
+        doThrow(new ArithmeticException())
+                .when(calcService).divide(10.0,0.0);
+
+        //test the add functionality
+        Assert.assertEquals(calcService.divide(10.0, 0.0),new ArithmeticException());
+    }
 }

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.mockitodemo.test.MockitoExampleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-24T09:25:02" hostname="LAPTOP-OT35PSQH" time="1.321">
+<testsuite name="com.mockitodemo.test.MockitoExampleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-24T09:28:09" hostname="LAPTOP-OT35PSQH" time="1.236">
   <properties/>
-  <testcase name="givenTwoNumbersSubtraction_WhenProper_ShouldReturnCorrectAddition" classname="com.mockitodemo.test.MockitoExampleTest" time="1.317"/>
-  <testcase name="givenTwoNumbersAddition_WhenProper_ShouldReturnCorrectAddition" classname="com.mockitodemo.test.MockitoExampleTest" time="0.003"/>
+  <testcase name="givenTwoNumbersSubtraction_WhenProper_ShouldReturnCorrectAddition" classname="com.mockitodemo.test.MockitoExampleTest" time="1.219"/>
+  <testcase name="givenTwoNumbersAddition_WhenProper_ShouldReturnCorrectAddition" classname="com.mockitodemo.test.MockitoExampleTest" time="0.002"/>
+  <testcase name="givenTwoNumbersDivision_WhenDivideByZero_ShouldThrowException" classname="com.mockitodemo.test.MockitoExampleTest" time="0.012"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
